@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#95D195"
+            android:fontFamily="@font/excellent_arabic"
+            android:padding="5dp"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiri_quran"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiri_quran_regular"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/divehi"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hafs"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kalpurush"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kitab"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/me_quran"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noorehidayat"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noorehira"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noorehira_regular"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noorehuda"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noorehuda_regular"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B9D8B9"
+            android:fontFamily="@font/qalam"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AAD0AA"
+            android:fontFamily="@font/noorehuda"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AAD0AA"
+            android:fontFamily="@font/noorehuda"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#95D195"
+            android:fontFamily="@font/noorehuda"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/urdu_type_setting"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/uthman_taha_regular"
+            android:padding="5dp"
+            android:text="اَلِیْمٌ ۙ۬۟ — ,أَلِيمُۢ"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/uthman_taha_regular"
+            android:padding="5dp"
+            android:text="فِیۡ قُلُوۡبِہِمۡ مَّرَضٌ ۙ فَزَادَہُمُ اللّٰہُ مَرَضًا ۚ وَ لَہُمۡ عَذَابٌ اَلِیۡمٌۢ ۬ۙ بِمَا کَانُوۡا یَکۡذِبُوۡنَ "
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>
