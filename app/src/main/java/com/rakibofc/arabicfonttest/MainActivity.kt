@@ -12,16 +12,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        /*
         val specialChar = "اَلِیْمٌ ۙ۬۟ \uF64A— ,أَلِيمُۢ"
         val urlEncoder = URLEncoder.encode(specialChar, "UTF-8");
         val word = URLEncoder.encode("\uF64A", "UTF-8")
 
         val spannedText: Spanned = Html.fromHtml(specialChar, Html.FROM_HTML_MODE_LEGACY)
-
-
         findViewById<TextView>(R.id.tvTemp).text = specialChar
 
-        /*val word = "هَنِیْٓـًٔا\uF64A"
+        val word = "هَنِیْٓـًٔا\uF64A"
         val char2 = "\uF64B"
 
         for (char in word) {
